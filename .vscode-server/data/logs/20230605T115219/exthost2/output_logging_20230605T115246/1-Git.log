@@ -1,0 +1,66 @@
+[2023-06-05T11:52:48.016Z] Log level: Info
+[2023-06-05T11:52:48.023Z] [info] Validating found git in: git
+[2023-06-05T11:52:48.075Z] [info] Using git 2.34.1 from git
+[2023-06-05T11:52:48.104Z] > git rev-parse --show-toplevel [12ms]
+[2023-06-05T11:52:48.107Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.117Z] > git rev-parse --show-toplevel [1ms]
+[2023-06-05T11:52:48.117Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.123Z] > git rev-parse --show-toplevel [1ms]
+[2023-06-05T11:52:48.123Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.131Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T11:52:48.131Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.138Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T11:52:48.138Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.149Z] > git rev-parse --show-toplevel [6ms]
+[2023-06-05T11:52:48.156Z] > git rev-parse --git-dir --git-common-dir [1ms]
+[2023-06-05T11:52:48.165Z] [info] Open repository: /home/ubuntu/.nvm
+[2023-06-05T11:52:48.183Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T11:52:48.183Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.195Z] > git rev-parse --show-toplevel [8ms]
+[2023-06-05T11:52:48.195Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.203Z] > git rev-parse --show-toplevel [3ms]
+[2023-06-05T11:52:48.203Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.209Z] > git rev-parse --show-toplevel [1ms]
+[2023-06-05T11:52:48.209Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.217Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T11:52:48.227Z] > git rev-parse --git-dir --git-common-dir [2ms]
+[2023-06-05T11:52:48.230Z] [info] Open repository: /home/ubuntu/Test
+[2023-06-05T11:52:48.245Z] > git rev-parse --show-toplevel [1ms]
+[2023-06-05T11:52:48.245Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.253Z] > git rev-parse --show-toplevel [3ms]
+[2023-06-05T11:52:48.253Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T11:52:48.343Z] > git status -z -uall [169ms]
+[2023-06-05T11:52:48.353Z] > git symbolic-ref --short HEAD [3ms]
+[2023-06-05T11:52:48.353Z] fatal: ref HEAD is not a symbolic ref
+[2023-06-05T11:52:48.362Z] > git rev-parse HEAD [1ms]
+[2023-06-05T11:52:48.378Z] > git remote --verbose [2ms]
+[2023-06-05T11:52:48.380Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+[2023-06-05T11:52:48.395Z] > git config --get commit.template [3ms]
+[2023-06-05T11:52:48.430Z] > git status -z -uall [25ms]
+[2023-06-05T11:52:48.441Z] > git symbolic-ref --short HEAD [3ms]
+[2023-06-05T11:52:48.441Z] fatal: ref HEAD is not a symbolic ref
+[2023-06-05T11:52:48.450Z] > git rev-parse HEAD [3ms]
+[2023-06-05T11:52:48.467Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [10ms]
+[2023-06-05T11:52:48.470Z] > git remote --verbose [4ms]
+[2023-06-05T11:52:48.504Z] > git config --get commit.template [16ms]
+[2023-06-05T11:52:48.767Z] > git check-ignore -v -z --stdin [8ms]
+[2023-06-05T11:52:48.791Z] > git check-ignore -v -z --stdin [26ms]
+[2023-06-05T11:52:50.063Z] > git check-ignore -v -z --stdin [21ms]
+[2023-06-05T11:52:51.143Z] > git check-ignore -v -z --stdin [54ms]
+[2023-06-05T11:52:53.472Z] > git check-ignore -v -z --stdin [75ms]
+[2023-06-05T11:52:58.365Z] > git show --textconv :Web3.0_GMS/src/index.js [40ms]
+[2023-06-05T11:52:58.374Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/index.js [38ms]
+[2023-06-05T11:52:58.383Z] > git cat-file -s 82936f514215befda95c53f99b899353ea560245 [2ms]
+[2023-06-05T11:53:02.075Z] > git show --textconv :Web3.0_GMS/src/serviceWorker.js [20ms]
+[2023-06-05T11:53:02.084Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/serviceWorker.js [20ms]
+[2023-06-05T11:53:02.092Z] > git cat-file -s 44610f38394b701650846f1ebddbb0023f15e8f0 [2ms]
+[2023-06-05T11:53:14.877Z] > git status -z -uall [26638ms]
+[2023-06-05T11:53:27.727Z] > git show --textconv :Web3.0_GMS/src/routes.js [14ms]
+[2023-06-05T11:53:27.733Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/routes.js [15ms]
+[2023-06-05T11:53:27.739Z] > git cat-file -s 227baf5c1cc0f5678630b544e640b4977624a206 [2ms]
+[2023-06-05T11:55:10.681Z] > git show --textconv :Web3.0_GMS/CHANGELOG.md [15ms]
+[2023-06-05T11:55:10.694Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/CHANGELOG.md [21ms]
+[2023-06-05T11:55:10.700Z] > git cat-file -s 159b07b94e974ebbc37f699caefe1467b5aca828 [1ms]
+[2023-06-05T11:55:10.970Z] > git show --textconv :Web3.0_GMS/src/serviceWorker.js [14ms]
+[2023-06-05T11:55:10.976Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/serviceWorker.js [15ms]
+[2023-06-05T11:55:10.983Z] > git cat-file -s 44610f38394b701650846f1ebddbb0023f15e8f0 [2ms]

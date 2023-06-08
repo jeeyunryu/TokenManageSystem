@@ -1,0 +1,21 @@
+[2023-05-25 10:59:56.052] [remoteagent] [info] Extension host agent started.
+[2023-05-25 10:59:56.283] [remoteagent] [info] [127.0.0.1][5da5c015][ManagementConnection] New connection established.
+[2023-05-25 10:59:56.303] [remoteagent] [info] [127.0.0.1][6dc0627d][ExtensionHostConnection] New connection established.
+[2023-05-25 10:59:56.504] [remoteagent] [info] [127.0.0.1][6dc0627d][ExtensionHostConnection] <38445> Launched Extension Host Process.
+[2023-05-25 11:00:48.406] [remoteagent] [info] [127.0.0.1][5da5c015][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2023-05-25 11:00:48.430] [remoteagent] [info] [127.0.0.1][6dc0627d][ExtensionHostConnection] <38445> Extension Host Process exited with code: 0, signal: null.
+[2023-05-25 11:00:48.430] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-05-25 11:00:52.219] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2023-05-25 11:00:52.219] [remoteagent] [info] Cancelling previous shutdown timeout
+[2023-05-25 11:00:52.439] [remoteagent] [info] [127.0.0.1][d460b3e4][ManagementConnection] New connection established.
+[2023-05-25 11:00:52.441] [remoteagent] [info] [127.0.0.1][8efe3fbf][ExtensionHostConnection] New connection established.
+[2023-05-25 11:00:52.446] [remoteagent] [info] [127.0.0.1][8efe3fbf][ExtensionHostConnection] <38595> Launched Extension Host Process.
+[2023-05-25 11:05:52.220] [remoteagent] [info] New EH opened, aborting shutdown
+[2023-05-25 14:30:18.596] [remoteagent] [info] [127.0.0.1][d460b3e4][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2023-05-25 14:30:18.598] [remoteagent] [error] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/ubuntu/.vscode-server/bin/74b1f979648cc44d385a2286793c226e611f59e7/out/vs/server/node/server.main.js:145:7922)
+    at process.emit (node:events:526:28)
+[2023-05-25 17:30:19.806] [remoteagent] [info] [127.0.0.1][8efe3fbf][ExtensionHostConnection] <38595> Extension Host Process exited with code: 0, signal: null.
+[2023-05-25 17:30:19.807] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2023-05-25 17:30:26.472] [remoteagent] [info] [127.0.0.1][d460b3e4][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2023-05-25 17:35:19.807] [remoteagent] [info] Last EH closed, shutting down

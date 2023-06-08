@@ -1,0 +1,17 @@
+[2023-06-05 14:15:22.256] [exthost] [info] Extension host with pid 8869 started
+[2023-06-05 14:15:22.262] [exthost] [error] Error: EEXIST: file already exists, open '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a/vscode.lock'
+[2023-06-05 14:15:22.269] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a/vscode.lock': Could not acquire lock, checking if the file is stale.
+[2023-06-05 14:15:22.278] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a/vscode.lock': The lock does not look stale, elapsed: 424 ms, giving up.
+[2023-06-05 14:15:22.284] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a-1/vscode.lock': Lock acquired.
+[2023-06-05 14:15:22.532] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2023-06-05 14:15:22.591] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-06-05 14:15:22.596] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+[2023-06-05 14:15:22.600] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-06-05 14:15:23.549] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+[2023-06-05 14:15:23.649] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-06-05 14:15:23.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-06-05 14:15:23.902] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-06-05 14:15:23.911] [exthost] [info] Eager extensions activated
+[2023-06-05 15:39:31.364] [exthost] [info] Extension host terminating: received terminate message from renderer
+[2023-06-05 15:39:31.365] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-06-05 15:39:31.385] [exthost] [info] Extension host with pid 8869 exiting with code 0

@@ -1,0 +1,78 @@
+[2023-06-05T14:15:23.755Z] Log level: Info
+[2023-06-05T14:15:23.765Z] [info] Validating found git in: git
+[2023-06-05T14:15:23.829Z] [info] Using git 2.34.1 from git
+[2023-06-05T14:15:23.930Z] > git rev-parse --show-toplevel [66ms]
+[2023-06-05T14:15:23.930Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:23.951Z] > git rev-parse --show-toplevel [8ms]
+[2023-06-05T14:15:23.988Z] > git rev-parse --git-dir --git-common-dir [20ms]
+[2023-06-05T14:15:24.000Z] [info] Open repository: /home/ubuntu/Test
+[2023-06-05T14:15:24.058Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T14:15:24.058Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.193Z] > git rev-parse --show-toplevel [118ms]
+[2023-06-05T14:15:24.193Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.230Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T14:15:24.230Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.260Z] > git rev-parse --show-toplevel [16ms]
+[2023-06-05T14:15:24.260Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.284Z] > git rev-parse --show-toplevel [9ms]
+[2023-06-05T14:15:24.307Z] > git rev-parse --git-dir --git-common-dir [5ms]
+[2023-06-05T14:15:24.311Z] [info] Open repository: /home/ubuntu/.nvm
+[2023-06-05T14:15:24.362Z] > git rev-parse --show-toplevel [6ms]
+[2023-06-05T14:15:24.362Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.377Z] > git rev-parse --show-toplevel [1ms]
+[2023-06-05T14:15:24.377Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.419Z] > git status -z -uall [79ms]
+[2023-06-05T14:15:24.459Z] > git symbolic-ref --short HEAD [2ms]
+[2023-06-05T14:15:24.459Z] fatal: ref HEAD is not a symbolic ref
+[2023-06-05T14:15:24.478Z] > git rev-parse --show-toplevel [78ms]
+[2023-06-05T14:15:24.478Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.506Z] > git rev-parse --show-toplevel [2ms]
+[2023-06-05T14:15:24.506Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.524Z] > git rev-parse HEAD [47ms]
+[2023-06-05T14:15:24.594Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [39ms]
+[2023-06-05T14:15:24.595Z] > git rev-parse --show-toplevel [72ms]
+[2023-06-05T14:15:24.595Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.610Z] > git remote --verbose [28ms]
+[2023-06-05T14:15:24.615Z] > git rev-parse --show-toplevel [7ms]
+[2023-06-05T14:15:24.615Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.721Z] > git config --get commit.template [69ms]
+[2023-06-05T14:15:24.741Z] > git rev-parse --show-toplevel [22ms]
+[2023-06-05T14:15:24.741Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.811Z] > git status -z -uall [71ms]
+[2023-06-05T14:15:24.838Z] > git rev-parse --show-toplevel [50ms]
+[2023-06-05T14:15:24.838Z] fatal: not a git repository (or any of the parent directories): .git
+[2023-06-05T14:15:24.840Z] > git symbolic-ref --short HEAD [3ms]
+[2023-06-05T14:15:24.840Z] fatal: ref HEAD is not a symbolic ref
+[2023-06-05T14:15:24.880Z] > git rev-parse HEAD [9ms]
+[2023-06-05T14:15:24.923Z] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [27ms]
+[2023-06-05T14:15:24.924Z] > git remote --verbose [2ms]
+[2023-06-05T14:15:24.960Z] > git config --get commit.template [13ms]
+[2023-06-05T14:15:25.037Z] > git show --textconv :Web3.0_GMS/src/serviceWorker.js [25ms]
+[2023-06-05T14:15:25.078Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/serviceWorker.js [46ms]
+[2023-06-05T14:15:25.102Z] > git cat-file -s 44610f38394b701650846f1ebddbb0023f15e8f0 [10ms]
+[2023-06-05T14:15:25.160Z] > git check-ignore -v -z --stdin [351ms]
+[2023-06-05T14:15:25.510Z] > git check-ignore -v -z --stdin [1ms]
+[2023-06-05T14:15:25.915Z] > git check-ignore -v -z --stdin [436ms]
+[2023-06-05T14:15:28.216Z] > git status -z -uall [4176ms]
+[2023-06-05T14:20:01.918Z] > git check-ignore -v -z --stdin [17ms]
+[2023-06-05T14:20:02.657Z] > git show --textconv :Web3.0_GMS/src/shareInfo/userInfo.js [14ms]
+[2023-06-05T14:20:02.664Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/shareInfo/userInfo.js [15ms]
+[2023-06-05T14:24:30.714Z] > git check-ignore -v -z --stdin [54ms]
+[2023-06-05T14:24:32.071Z] > git show --textconv :Web3.0_GMS/src/backend/safeMint.js [16ms]
+[2023-06-05T14:24:32.077Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/backend/safeMint.js [16ms]
+[2023-06-05T14:24:32.084Z] > git cat-file -s 80675cbc48e2f5ba75bd53a08d05b6bb291a644b [1ms]
+[2023-06-05T14:24:42.075Z] > git show --textconv :Web3.0_GMS/src/shareInfo/userInfo.js [15ms]
+[2023-06-05T14:24:42.083Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/shareInfo/userInfo.js [17ms]
+[2023-06-05T14:24:52.015Z] > git check-ignore -v -z --stdin [19ms]
+[2023-06-05T14:24:55.056Z] > git show --textconv :Web3.0_GMS/src/login/googleLogin.js [16ms]
+[2023-06-05T14:24:55.062Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/login/googleLogin.js [16ms]
+[2023-06-05T14:24:55.069Z] > git cat-file -s e4348c1c9ee55d415ef0e9d1617356d2a959c460 [2ms]
+[2023-06-05T14:25:01.024Z] > git check-ignore -v -z --stdin [38ms]
+[2023-06-05T14:25:23.112Z] > git check-ignore -v -z --stdin [49ms]
+[2023-06-05T14:25:24.704Z] > git check-ignore -v -z --stdin [17ms]
+[2023-06-05T14:25:32.593Z] > git check-ignore -v -z --stdin [39ms]
+[2023-06-05T14:25:33.226Z] > git check-ignore -v -z --stdin [25ms]
+[2023-06-05T14:25:38.485Z] > git show --textconv :Web3.0_GMS/src/pages/LoginPage.js [17ms]
+[2023-06-05T14:25:38.490Z] > git ls-files --stage -- /home/ubuntu/Test/Web3.0_GMS/src/pages/LoginPage.js [15ms]
+[2023-06-05T14:25:38.496Z] > git cat-file -s f370077746f7517b729225e8c17950a37c801bc3 [1ms]
+[2023-06-05T15:06:37.287Z] > git check-ignore -v -z --stdin [18ms]

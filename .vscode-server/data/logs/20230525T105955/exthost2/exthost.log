@@ -1,0 +1,17 @@
+[2023-05-25 11:00:53.808] [exthost] [info] Extension host with pid 38595 started
+[2023-05-25 11:00:53.833] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7a0eaf777e3ccd6debc583ef774bca30/vscode.lock': Lock acquired.
+[2023-05-25 11:00:53.920] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-05-25 11:00:53.927] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2023-05-25 11:00:53.933] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-05-25 11:00:54.004] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-05-25 11:00:54.110] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-05-25 11:00:54.130] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-05-25 11:00:54.135] [exthost] [info] Eager extensions activated
+[2023-05-25 11:00:56.047] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2023-05-25 11:01:16.212] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2023-05-25 11:01:22.174] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2023-05-25 11:30:52.860] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-05-25 11:30:52.868] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2023-05-25 17:30:19.751] [exthost] [info] Extension host terminating: renderer disconnected for too long (1)
+[2023-05-25 17:30:19.751] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/7a0eaf777e3ccd6debc583ef774bca30/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-05-25 17:30:19.790] [exthost] [info] Extension host with pid 38595 exiting with code 0

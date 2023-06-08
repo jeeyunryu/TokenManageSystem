@@ -1,0 +1,16 @@
+[2023-06-05 11:52:46.378] [exthost] [info] Extension host with pid 1591 started
+[2023-06-05 11:52:46.399] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a/vscode.lock': Lock acquired.
+[2023-06-05 11:52:46.505] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2023-06-05 11:52:46.511] [exthost] [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+[2023-06-05 11:52:46.517] [exthost] [info] ExtensionService#_doActivateExtension vscode.ipynb, startup: true, activationEvent: '*'
+[2023-06-05 11:52:46.837] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+[2023-06-05 11:52:46.878] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2023-06-05 11:52:46.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2023-06-05 11:52:46.912] [exthost] [info] Eager extensions activated
+[2023-06-05 11:52:47.892] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+[2023-06-05 11:52:57.877] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2023-06-05 11:55:10.138] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-06-05 11:55:10.159] [exthost] [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+[2023-06-05 14:20:21.024] [exthost] [info] Extension host terminating: renderer disconnected for too long (2)
+[2023-06-05 14:20:21.025] [exthost] [info] Lock '/home/ubuntu/.vscode-server/data/User/workspaceStorage/49d846f72fafd8838b28aa4cfd9f657a/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+[2023-06-05 14:20:21.045] [exthost] [info] Extension host with pid 1591 exiting with code 0
